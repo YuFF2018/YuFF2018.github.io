@@ -79,14 +79,17 @@
 
 
 
+<meta name="description" content="用Github Pages + Hexo 搭建免费的独立博客这是看到的一篇总结博客，地址：http://piglikeyoung.com/2016/08/31/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/ 知识点 git 廖雪峰Git教程 github GitHub Pages Hexo–快速、简洁且高效的博客框架 Markdown语">
 <meta property="og:type" content="article">
-<meta property="og:title" content="first blog">
+<meta property="og:title" content="第一篇博客——使用Github Pages + Hexo 搭建博客">
 <meta property="og:url" content="http://yoursite.com/2018/09/30/first-blog/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="用Github Pages + Hexo 搭建免费的独立博客这是看到的一篇总结博客，地址：http://piglikeyoung.com/2016/08/31/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/ 知识点 git 廖雪峰Git教程 github GitHub Pages Hexo–快速、简洁且高效的博客框架 Markdown语">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-30T01:46:02.294Z">
+<meta property="og:updated_time" content="2018-10-22T02:40:45.099Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="first blog">
+<meta name="twitter:title" content="第一篇博客——使用Github Pages + Hexo 搭建博客">
+<meta name="twitter:description" content="用Github Pages + Hexo 搭建免费的独立博客这是看到的一篇总结博客，地址：http://piglikeyoung.com/2016/08/31/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/ 知识点 git 廖雪峰Git教程 github GitHub Pages Hexo–快速、简洁且高效的博客框架 Markdown语">
 
 
 
@@ -122,7 +125,7 @@
 
 
 
-  <title>first blog | Hexo</title>
+  <title>第一篇博客——使用Github Pages + Hexo 搭建博客 | Hexo</title>
   
 
 
@@ -246,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">first blog</h1>
+          <h1 class="post-title" itemprop="name headline">第一篇博客——使用Github Pages + Hexo 搭建博客</h1>
         
 
         <div class="post-meta">
@@ -296,7 +299,27 @@
       
 
       
-        
+        <h1 id="用Github-Pages-Hexo-搭建免费的独立博客"><a href="#用Github-Pages-Hexo-搭建免费的独立博客" class="headerlink" title="用Github Pages + Hexo 搭建免费的独立博客"></a>用Github Pages + Hexo 搭建免费的独立博客</h1><h3 id="这是看到的一篇总结博客，地址："><a href="#这是看到的一篇总结博客，地址：" class="headerlink" title="这是看到的一篇总结博客，地址："></a>这是看到的一篇总结博客，地址：</h3><p><a href="http://piglikeyoung.com/2016/08/31/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">http://piglikeyoung.com/2016/08/31/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</a></p>
+<h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><ul>
+<li><a href="https://git-scm.com/book/zh/v2" target="_blank" rel="noopener">git</a></li>
+<li><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="noopener">廖雪峰Git教程</a></li>
+<li><a href="https://github.com/" target="_blank" rel="noopener">github</a></li>
+<li><a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></li>
+<li><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo–快速、简洁且高效的博客框架</a></li>
+<li><a href="https://www.appinn.com/markdown/#overview" target="_blank" rel="noopener">Markdown语法说明</a></li>
+</ul>
+<h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><p>由于安装Hexo需要Node.js和Git，所以在Hexo官网上有安装的详细说明（中文版），不再赘述（Mac电脑有自带Git的）。</p>
+<p>当Node.js和Git都安装完成后，开始正式安装Hexo，在终端上执行</p>
+<p><code>$ sudo npm install -g hexo</code><br>需要输入管理员密码（Mac登录密码）。(sudo：Linux管理员指令，-g：全局安装)</p>
+<p><em>坑一：Hexo官网上的安装命令是$ npm install -g hexo-cli，安装时不要忘记前面加上sudo，否则会因为权限问题报错。</em></p>
+<h2 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h2><p>终端cd到你想创建博客的文件夹，然后中执行终端命令</p>
+<p><code>$ hexo init myblog</code></p>
+<p>myblog是你新建的博客文件夹，cd到这个文件夹，然后执行命令安装npm</p>
+<p><code>$ npm install</code></p>
+<p>最后执行命令，开启Hexo本地服务器</p>
+<p><code>$ hexo s // 全称：hexo server</code></p>
+<p>终端中会提示在浏览器打开 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 这个网址就可以看到</p>
+<h2 id="关联Github"><a href="#关联Github" class="headerlink" title="关联Github"></a>关联Github</h2>
       
     </div>
     
@@ -380,8 +403,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -405,6 +437,15 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
+            
 
           </nav>
 
@@ -423,6 +464,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#用Github-Pages-Hexo-搭建免费的独立博客"><span class="nav-number">1.</span> <span class="nav-text">用Github Pages + Hexo 搭建免费的独立博客</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#这是看到的一篇总结博客，地址："><span class="nav-number">1.0.1.</span> <span class="nav-text">这是看到的一篇总结博客，地址：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#知识点"><span class="nav-number">1.1.</span> <span class="nav-text">知识点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#环境配置"><span class="nav-number">1.2.</span> <span class="nav-text">环境配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初始化博客"><span class="nav-number">1.3.</span> <span class="nav-text">初始化博客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关联Github"><span class="nav-number">1.4.</span> <span class="nav-text">关联Github</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
